@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style>
+/* Resetting margins and padding */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Body and general layout */
+body {
+	font-family: 'Arial', sans-serif;
+	background-color: #f4f8fb; /* Light blue background */
+	color: #333;
+	padding: 0 20px;
+}
+
+/* Navigation Bar Styling */
+nav {
+	background-color: #007BFF; /* Blue background */
+	padding: 15px 20px;
+	text-align: center;
+}
+
+nav a {
+	color: #fff; /* White text */
+	text-decoration: none;
+	margin: 0 20px;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: #FFD700; /* Gold color on hover */
+}
+
+/* Heading */
+h1 {
+	color: #007BFF;
+	text-align: center;
+	margin-top: 40px;
+	font-size: 36px;
+}
+
+/* Dashboard links */
+.dashboard-links {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.dashboard-links a {
+	background-color: #007BFF; /* Blue button background */
+	color: white;
+	padding: 15px 30px;
+	margin: 10px 0;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 18px;
+	width: 250px;
+	text-align: center;
+	transition: background-color 0.3s;
+}
+
+.dashboard-links a:hover {
+	background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Footer (optional) */
+footer {
+	background-color: #007BFF; /* Blue background */
+	color: #fff;
+	text-align: center;
+	padding: 5px;
+	margin-bottom: 0px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	font-size: 14px;
+}
+</style>
+
+</head>
+<body>
+	<nav>
+		<a href="index.html">Home</a> <a href="Login.html">Logout</a>
+	</nav>
+	<h1>Welcome to CHARAN BANK Dashboard</h1>
+
+	<div class="dashboard-links">
+		<a href="profile.html">Create Profile</a> <a href="Deposit.html">Deposit</a>
+		<a href="Withdraw.html">Withdraw Money</a> <a href="ViewBalance.jsp">View
+			Balance</a>
+	</div>
+
+	<footer>
+		<p>&copy; 2024 CHARAN Bank. All rights reserved.</p>
+	</footer>
+</body>
+</html>
